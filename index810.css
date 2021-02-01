@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+
+}
+body{
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+
+#title{
+    display: inline-block;
+    color: #fff;/*EBEBD3, C5283D*/
+    font-size:45px;
+    letter-spacing: 2px;
+    user-select: none;
+  }
+
+#join_container{
+    width: 100%;
+   height:200px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:aqua;
+ position:relative;
+  }
+
+  #join_input{
+    width: 90%;
+    height: 40px;
+  
+    color: #1D3354;
+    font-family: Varela Round;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: Transparent;
+    border-bottom: 2px dashed #1D3354;
+  
+  }
+
+
+  #join_button{
+    width: 70%;
+    height: 40px;
+    font-family: Varela Round;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-top:20px;
+    border-radius:5px;
+  }
+
+  #chat_inner_container{
+    width: 80%;
+    height: 100%;
+  }
